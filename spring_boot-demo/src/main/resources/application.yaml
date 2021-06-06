@@ -1,0 +1,19 @@
+#logging:
+#   level:
+#     org.springframework.security: DEBUG
+#     org.springframework.web: DEBUG
+     
+spring:
+#  security:
+#    oauth2:
+#      client:
+#        registration:
+#          github:
+#            client-id: afc72d20ce310afeda6a
+#            client-secret: 16b6fbbbba02f8a8d9cdf4564ec7cd07d53982a1
+              jpa:    database: default
+    generate-ddl: true
+    show-sql: true
+    hibernate:      ddl-auto: update
+
+
